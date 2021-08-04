@@ -74,6 +74,7 @@
 
 #ifdef SL_CATALOG_RAIL_UTIL_COEX_PRESENT
 #include "coexistence-802154.h"
+#include "sl_rail_util_ieee802154_stack_event.h"
 #endif // SL_CATALOG_RAIL_UTIL_COEX_PRESENT
 
 #ifdef SL_CATALOG_RAIL_UTIL_IEEE802154_STACK_EVENT_PRESENT

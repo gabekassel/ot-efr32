@@ -48,4 +48,6 @@
 
 #define RADIO_CONFIG_PA_USES_DCDC 0 /// The PA(s) is(are) fed from VBAT
 
+#define SL_CATALOG_RAIL_UTIL_COEX_PRESENT
+
 #endif // __BOARD_CONFIG_H__

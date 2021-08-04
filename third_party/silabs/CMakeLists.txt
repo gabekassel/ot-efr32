@@ -63,6 +63,7 @@ set(SILABS_GSDK_COMMON_SOURCES
     ${SILABS_GSDK_DIR}/platform/emlib/src/em_timer.c
     ${SILABS_GSDK_DIR}/platform/emlib/src/em_usart.c
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/hal/efr32/hal_efr.c
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154_uc/coexistence-802154.c
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.c
     ${SILABS_GSDK_DIR}/platform/service/mpu/src/sl_mpu.c
     ${SILABS_GSDK_DIR}/platform/service/device_init/src/sl_device_init_nvic.c

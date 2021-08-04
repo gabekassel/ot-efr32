@@ -51,6 +51,12 @@ set(SILABS_GSDK_INCLUDES
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/common
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/hal
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/hal/efr32
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/coexistence
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/coexistence/common
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154_uc
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/coexistence/hal/efr32
+    ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/rail_util_ieee802154
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/plugin/pa-conversions
     ${SILABS_GSDK_DIR}/platform/radio/rail_lib/protocol/ieee802154
     ${SILABS_GSDK_DIR}/platform/service/device_init/inc
